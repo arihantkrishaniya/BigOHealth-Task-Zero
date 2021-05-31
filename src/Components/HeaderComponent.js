@@ -22,27 +22,42 @@ class Header extends Component{
     render(){
         return(
             <>
-            <Navbar dark expand="md">
+            <Navbar expand="md">
                 <div className="container">
                     <NavbarToggler onClick={this.toggleNav} />
                     <NavbarBrand className= "mr-auto" href= "/">
-                        <img src="assets/images/logo.png" height="60" width="80" alt="Webicoun logo"/>
+                        <img src="assets/images/bigohealth-logo.png" height="50" width="130" alt="BigOHealth logo"/>
                     </NavbarBrand>
                     <Collapse isOpen={this.state.isNavOpen} navbar>
                     <Nav navbar>
                         <NavItem>
                             <NavLink className = "nav-link"  to = "/home">
-                                <span className = "fa fa-home fa-lg"></span> Home
+                                 Home
                             </NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink className = "nav-link"  to = "/blogs">
-                                <span className = "fa fa-list fa-lg"></span> Blogs
+                            <NavLink className = "nav-link"  to = "/book appointment">
+                                 Book Appointment
                             </NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink className = "nav-link"  to = "/webinar">
-                                <span className = "fa fa-info fa-lg"></span> Webinars
+                            <NavLink className = "nav-link"  to = "/consult online">
+                                 Consult Online
+                            </NavLink>
+                        </NavItem>
+                        <NavItem>
+                            <NavLink className = "nav-link"  to = "/covid-19">
+                                 Covid-19
+                            </NavLink>
+                        </NavItem>
+                        <NavItem>
+                            <NavLink className = "nav-link"  to = "/covid home care">
+                                 Covid Home Care
+                            </NavLink>
+                        </NavItem>
+                        <NavItem>
+                            <NavLink className = "nav-link"  to = "/queries">
+                                 Queries
                             </NavLink>
                         </NavItem>
                     </Nav>
@@ -53,8 +68,8 @@ class Header extends Component{
                 <div className="container">
                     <div className="row row-header">
                         <div className = "col-12 col-sm-6">
-                            <h1>Webicoun India</h1>
-                            <p>Webicoun is a health-tech organization focusing on Emotional, Mental and Physical wellness through Webinars and Counselling. We aim at solving any type of challenges/problems faced by an individual so that these problems do not accumulate and become a major problem in long run.</p>
+                            <h1>Expert Advice!</h1>
+                            <p>We started an initiative to help the rural population with free doctor consultations and more than 8000 patients have been benefitted from this initiative.</p>
                         </div>
                     </div>
                 </div> 

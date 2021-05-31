@@ -4,22 +4,23 @@
 }
 
 .row-content {
-  margin:0px auto;
+  margin: 0px auto;
   padding: 50px 0px 50px 0px;
   border-bottom: 1px ridge;
   min-height:400px;
 }
 
 .footer{
-  background-color: #D1C4E9;
+  background-color: #c6d1e0;
   margin:0px auto;
   padding: 20px 0px 20px 0px;
 }
 .jumbotron {
   padding:70px 30px 70px 30px;
   margin:0px auto;
-  background: #9575CD ;
-  color:floralwhite;
+  background: #e2e3e6 ;
+  color:rgb(57, 57, 173);
+  font-family:inherit;
 }
 
 address{
@@ -28,7 +29,10 @@ address{
   color:#0f0f0f;
 }
 
-.navbar-dark {
-  background-color: #512DA8;
-}
+
+
+
+
+
+
 

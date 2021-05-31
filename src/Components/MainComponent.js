@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
 import Header from './HeaderComponent';
-import Blogs from './BlogsComponent.js';
-import Webinars from './WebinarsComponent.js';
-import Home from './HomeComponent'
-import Footer from './FooterComponent'
+import Home from './HomeComponent';
+import Queries from './QueriesComponent';
+import Footer from './FooterComponent';
 import {Switch, Route, Redirect} from 'react-router-dom';
 
 
@@ -14,10 +13,9 @@ class Main extends Component{
     <div>
       <Header />
       <Switch>
+          <Route exact path = "/queries" component = {Queries} />
           <Route exact path = "/home" component = {Home} />
-          <Route exact path ="/blogs" component = {Blogs} />
-          <Route exact path ="/webinars" component ={Webinars} />
-          <Redirect to= "/home" />
+          <Redirect to= "/queries" />
       </Switch>
       <Footer />
       

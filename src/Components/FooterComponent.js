@@ -9,21 +9,20 @@ function Footer(props) {
                 <div className="col-4 offset-1 col-sm-2">
                     <h5>Links</h5>
                     <ul className="list-unstyled">
-                        <li><Link to="/blogs">Blogs</Link></li>
-                        <li><Link to="/loginasexpert">Login As Expert</Link></li>
-                        <li><Link to="/contactsus">Contact Us</Link></li>
+                        <li><Link to="/consultonline">Consult Online</Link></li>
+                        <li><Link to="/aboutus">About Us</Link></li>
+                        <li><Link to="/contactus">Contact Us</Link></li>
                     </ul>
                 </div>
                 <div className="col-7 col-sm-5">
                     <h5>Our Address</h5>
                     <address>
-		              121, Clear Water Bay Road<br />
-		              Clear Water Bay, Kowloon<br />
+		              121, Clear Water Bay Road,<br />
 		              Mumbai<br />
 		              <i className="fa fa-phone fa-lg"></i>: +91-9898989898<br />
 		              <i className="fa fa-fax fa-lg"></i>: +852 8765 4321<br />
 		              <i className="fa fa-envelope fa-lg"></i>: <a href="webicounindia@gmail.com">
-                      webicounindia@gmail.com</a>
+                      contact@bigohealth.com</a>
                     </address>
                 </div>
                 <div className="col-12 col-sm-4 align-self-center">
@@ -42,9 +41,10 @@ function Footer(props) {
                     </div>
                 </div>
             </div>
+            <br/>
             <div className="row justify-content-center">             
                 <div className="col-auto">
-                    <p>Webicoun India © 2020. All Rights Reserved</p>
+                    <p>BigOHealth © 2018. All Rights Reserved</p>
                     <a href="#">Terms & Conditions</a>
                     <a><i>           </i></a>
                     <a href ="#">Privacy Policy</a>
